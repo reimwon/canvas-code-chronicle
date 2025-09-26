@@ -5,7 +5,7 @@ import profilePhoto from "@/assets/profile-photo.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center py-20 px-4">
+    <section className="min-h-screen flex items-center justify-center pt-32 pb-20 px-4">
       <div className="max-w-4xl mx-auto text-center">
         {/* ID Card Style Profile */}
         <Card className="inline-block p-8 bg-gradient-card shadow-card border-2 border-primary/10 mb-8">
