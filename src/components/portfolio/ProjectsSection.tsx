@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Github, ExternalLink, Code } from "lucide-react";
+import { Github, Code } from "lucide-react";
 
 const ProjectsSection = () => {
   const projects = [
@@ -10,15 +10,13 @@ const ProjectsSection = () => {
       description: "Developed a secure blockchain-based system for healthcare data management, ensuring patient privacy and data integrity through smart contracts and cryptographic hashing.",
       tech: ["Solidity", "Web3.js", "React", "Node.js", "MongoDB"],
       github: "#",
-      demo: "#",
       highlight: "🏥"
     },
     {
       title: "AI Chatbot with NLP",
       description: "Built an intelligent chatbot using natural language processing and machine learning algorithms, capable of understanding context and providing personalized responses.",
       tech: ["Python", "TensorFlow", "NLTK", "Flask", "React"],
-      github: "#", 
-      demo: "#",
+      github: "#",
       highlight: "🤖"
     },
     {
@@ -26,7 +24,6 @@ const ProjectsSection = () => {
       description: "Full-stack e-commerce platform with user authentication, payment processing, inventory management, and real-time order tracking features.",
       tech: ["React", "Node.js", "Express", "PostgreSQL", "Stripe API"],
       github: "#",
-      demo: "#", 
       highlight: "🛒"
     }
   ];
@@ -77,21 +74,14 @@ const ProjectsSection = () => {
                     </div>
                   </div>
                   
-                  <div className="flex gap-2 pt-2">
+                  <div className="pt-2">
                     <Button 
                       size="sm" 
                       variant="outline"
-                      className="border-primary text-primary hover:bg-primary hover:text-primary-foreground flex-1"
+                      className="border-primary text-primary hover:bg-primary hover:text-primary-foreground w-full"
                     >
                       <Github className="h-4 w-4 mr-2" />
-                      Code
-                    </Button>
-                    <Button 
-                      size="sm" 
-                      className="bg-accent hover:bg-accent/90 text-accent-foreground flex-1"
-                    >
-                      <ExternalLink className="h-4 w-4 mr-2" />
-                      Demo
+                      View Code
                     </Button>
                   </div>
                 </div>
