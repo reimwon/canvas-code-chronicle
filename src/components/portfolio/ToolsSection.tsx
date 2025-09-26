@@ -4,11 +4,9 @@ import { Code, Database, Globe, Palette, Terminal, GitBranch } from "lucide-reac
 const ToolsSection = () => {
   const tools = [
     { name: "VS Code", icon: Code, color: "text-primary" },
-    { name: "Git", icon: GitBranch, color: "text-accent" },
-    { name: "Docker", icon: Database, color: "text-primary" },
-    { name: "Figma", icon: Palette, color: "text-success" },
-    { name: "Jupyter", icon: Terminal, color: "text-accent" },
-    { name: "React", icon: Globe, color: "text-primary" }
+    { name: "Figma", icon: Palette, color: "text-accent" },
+    { name: "Git", icon: GitBranch, color: "text-success" },
+    { name: "Excel", icon: Database, color: "text-primary" }
   ];
 
   return (
