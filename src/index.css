@@ -6,24 +6,24 @@
 
 @layer base {
   :root {
-    /* Portfolio Color Palette */
-    --background: 45 100% 99%;
-    --foreground: 215 25% 27%;
+    /* Portfolio Color Palette - Based on Creative CV Reference */
+    --background: 45 30% 98%;
+    --foreground: 220 15% 25%;
 
-    /* Primary - Royal Blue */
-    --primary: 217 100% 35%;
+    /* Primary - Rich Royal Blue */
+    --primary: 220 100% 40%;
     --primary-foreground: 0 0% 100%;
 
-    /* Secondary - Bright Yellow */
-    --secondary: 48 100% 59%;
-    --secondary-foreground: 217 100% 35%;
+    /* Secondary - Bright Golden Yellow */
+    --secondary: 45 100% 50%;
+    --secondary-foreground: 220 100% 40%;
 
-    /* Accent - Soft Orange */
-    --accent: 20 100% 65%;
+    /* Accent - Warm Orange */
+    --accent: 25 100% 60%;
     --accent-foreground: 0 0% 100%;
 
     /* Success - Fresh Green */
-    --success: 84 74% 56%;
+    --success: 90 60% 50%;
     --success-foreground: 0 0% 100%;
 
     /* Card styles */
@@ -35,21 +35,21 @@
     --muted-foreground: 215 15% 55%;
 
     /* Border and input */
-    --border: 45 25% 90%;
-    --input: 45 25% 90%;
-    --ring: 217 100% 35%;
+    --border: 45 20% 85%;
+    --input: 45 20% 85%;
+    --ring: 220 100% 40%;
 
     --radius: 1rem;
 
     /* Custom gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(217 100% 35%), hsl(217 100% 45%));
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(45 25% 98%));
-    --gradient-accent: linear-gradient(135deg, hsl(48 100% 59%), hsl(48 100% 65%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 100% 40%), hsl(220 100% 50%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(45 30% 98%));
+    --gradient-accent: linear-gradient(135deg, hsl(45 100% 50%), hsl(45 100% 60%));
 
     /* Shadows */
-    --shadow-card: 0 4px 20px -2px hsl(217 100% 35% / 0.1);
-    --shadow-sticky: 0 8px 25px -5px hsl(48 100% 59% / 0.3);
-    --shadow-hover: 0 10px 30px -5px hsl(217 100% 35% / 0.2);
+    --shadow-card: 0 4px 20px -2px hsl(220 100% 40% / 0.1);
+    --shadow-sticky: 0 8px 25px -5px hsl(45 100% 50% / 0.3);
+    --shadow-hover: 0 10px 30px -5px hsl(220 100% 40% / 0.2);
 
     --sidebar-background: 0 0% 98%;
 
