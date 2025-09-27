@@ -29,7 +29,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <span className="text-xl font-bold text-primary-foreground">
-              Alex Johnson
+              Rameyza Alya Mardya Izzati Prayitno
             </span>
           </div>
 
