@@ -8,14 +8,6 @@ const ContactSection = () => {
       <div className="max-w-4xl mx-auto text-center">
         <Card className="inline-block p-8 bg-secondary shadow-sticky transform -rotate-2 hover:rotate-0 transition-transform duration-300 border-4 border-secondary/20">
           <div className="space-y-6">
-            <div className="flex items-center justify-center gap-2 text-2xl font-bold text-secondary-foreground">
-              <MessageCircle className="h-8 w-8" />
-              Let's collaborate on something amazing!
-            </div>
-            
-            <p className="text-lg text-secondary-foreground/80 max-w-md mx-auto">
-              Ready to bring innovative ideas to life? I'm always excited to work on challenging projects and learn from experienced developers.
-            </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
               <Button 
