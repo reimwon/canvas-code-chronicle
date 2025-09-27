@@ -4,30 +4,28 @@ import { GraduationCap, Calendar, BookOpen } from "lucide-react";
 const EducationSection = () => {
   const education = [
     {
-      school: "Tech University",
+      school: "Binus University",
       degree: "Bachelor of Science in Computer Science",
       period: "2022 - 2026",
       status: "In Progress",
-      gpa: "3.8/4.0"
+      gpa: "3.06/4.00"
     },
     {
-      school: "Springfield High School", 
+      school: "Yasporbi High School", 
       degree: "High School Diploma",
       period: "2018 - 2022",
       status: "Completed",
-      gpa: "4.0/4.0"
+      gpa: ""
     }
   ];
 
   const courses = [
     "Data Structures & Algorithms",
-    "Object-Oriented Programming", 
     "Database Management Systems",
     "Artificial Intelligence",
     "Blockchain Technology",
     "Software Engineering",
-    "Computer Networks",
-    "Web Development"
+    "Computer Networks"
   ];
 
   return (
@@ -60,9 +58,11 @@ const EducationSection = () => {
                         <span className={`px-3 py-1 rounded-full ${edu.status === 'Completed' ? 'bg-success text-success-foreground' : 'bg-accent text-accent-foreground'}`}>
                           {edu.status}
                         </span>
-                        <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full font-medium">
-                          GPA: {edu.gpa}
-                        </span>
+                        {edu.gpa && (
+                          <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full font-medium">
+                            GPA: {edu.gpa}
+                          </span>
+                        )}
                       </div>
                     </div>
                   </div>
