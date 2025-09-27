@@ -5,8 +5,7 @@ const AboutSection = () => {
   const traits = [
     { label: "Creative", color: "bg-primary text-primary-foreground" },
     { label: "Analytical", color: "bg-accent text-accent-foreground" }, 
-    { label: "Curious", color: "bg-secondary text-secondary-foreground" },
-    { label: "Problem Solver", color: "bg-success text-success-foreground" }
+    { label: "Curious", color: "bg-secondary text-secondary-foreground" }
   ];
 
   return (

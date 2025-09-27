@@ -24,21 +24,18 @@ const HeroSection = () => {
             </div>
             
             <div className="text-left">
-              <h1 className="text-4xl md:text-5xl font-bold text-primary mb-2">
-                Alex Johnson
+              <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6">
+                Rameyza Alya Mardya Izzati Prayitno
               </h1>
-              <div className="bg-gradient-hero bg-clip-text text-transparent text-xl md:text-2xl font-semibold mb-4">
-                Computer Science Student | Aspiring Software Engineer | Tech Enthusiast
-              </div>
               
               <div className="flex flex-wrap gap-3 mb-6">
                 <div className="flex items-center gap-2 bg-muted px-3 py-2 rounded-lg">
                   <Mail className="h-4 w-4 text-primary" />
-                  <span className="text-sm">alex.johnson@email.com</span>
+                  <span className="text-sm">rameyza.prayitno@binus.ac.id</span>
                 </div>
                 <div className="flex items-center gap-2 bg-muted px-3 py-2 rounded-lg">
                   <Phone className="h-4 w-4 text-primary" />
-                  <span className="text-sm">+1 (555) 123-4567</span>
+                  <span className="text-sm">+62 82114050787</span>
                 </div>
               </div>
               
@@ -56,12 +53,12 @@ const HeroSection = () => {
           </div>
         </Card>
         
-        {/* Tagline Sticky Note */}
-        <div className="inline-block bg-secondary p-4 rounded-xl shadow-sticky transform rotate-1 border-l-4 border-accent">
-          <p className="text-lg font-medium text-secondary-foreground">
-            "Exploring code, design, and innovation in tech."
-          </p>
-        </div>
+        {/* Start Button */}
+        <Button 
+          className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 text-lg font-semibold shadow-sticky"
+        >
+          Start
+        </Button>
       </div>
     </section>
   );
