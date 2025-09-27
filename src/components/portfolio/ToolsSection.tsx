@@ -30,17 +30,6 @@ const ToolsSection = () => {
                 </div>
               ))}
             </div>
-            
-            <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="bg-primary/5 p-4 rounded-lg border-l-4 border-primary">
-                <h4 className="font-semibold text-primary mb-2">Programming Languages</h4>
-                <p className="text-sm text-muted-foreground">Python, JavaScript, Java, C++, SQL, Solidity</p>
-              </div>
-              <div className="bg-success/5 p-4 rounded-lg border-l-4 border-success">
-                <h4 className="font-semibold text-success mb-2">Frameworks & Libraries</h4>
-                <p className="text-sm text-muted-foreground">React, Node.js, Express, TensorFlow, Flask</p>
-              </div>
-            </div>
           </CardContent>
         </Card>
       </div>
