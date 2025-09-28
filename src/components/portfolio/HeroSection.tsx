@@ -4,6 +4,13 @@ import { Mail, Phone, Github, Linkedin } from "lucide-react";
 import profilePhoto from "@/assets/profile-photo.jpg";
 
 const HeroSection = () => {
+  const scrollToAbout = () => {
+    const aboutSection = document.querySelector('#about');
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="min-h-screen flex items-center justify-center pt-32 pb-20 px-4">
       <div className="max-w-4xl mx-auto text-center">
@@ -55,6 +62,7 @@ const HeroSection = () => {
         
         {/* Start Button */}
         <Button 
+          onClick={scrollToAbout}
           className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 text-lg font-semibold shadow-sticky"
         >
           Start
