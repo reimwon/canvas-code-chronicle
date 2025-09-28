@@ -6,25 +6,18 @@ import { Github, Code } from "lucide-react";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "Blockchain for Healthcare Data Security",
-      description: "Developed a secure blockchain-based system for healthcare data management, ensuring patient privacy and data integrity through smart contracts and cryptographic hashing.",
-      tech: ["Solidity", "Web3.js", "React", "Node.js", "MongoDB"],
+      title: "VKellogg's Shop",
+      description: "A website themed around Kellogg's cereal products designed to provide comprehensive information about the brand's history, products, and cereal-based recipes. It combines branding elements, product promotion, and consumer education into a single platform.",
+      tech: ["React", "TypeScript", "Tailwind CSS", "Node.js", "MongoDB"],
       github: "#",
-      highlight: "🏥"
+      highlight: "🥣"
     },
     {
-      title: "AI Chatbot with NLP",
-      description: "Built an intelligent chatbot using natural language processing and machine learning algorithms, capable of understanding context and providing personalized responses.",
-      tech: ["Python", "TensorFlow", "NLTK", "Flask", "React"],
+      title: "Festigo",
+      description: "A centralized platform where users can easily search, discover, and get details about various events, ranging from music concerts, cultural festivals, and art exhibitions to educational seminars.",
+      tech: ["React", "Next.js", "PostgreSQL", "Prisma", "Stripe API"],
       github: "#",
-      highlight: "🤖"
-    },
-    {
-      title: "E-commerce Web Application",
-      description: "Full-stack e-commerce platform with user authentication, payment processing, inventory management, and real-time order tracking features.",
-      tech: ["React", "Node.js", "Express", "PostgreSQL", "Stripe API"],
-      github: "#",
-      highlight: "🛒"
+      highlight: "🎪"
     }
   ];
 
