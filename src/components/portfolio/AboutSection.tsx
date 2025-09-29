@@ -20,17 +20,7 @@ const AboutSection = () => {
           <CardContent className="p-8">
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-foreground">
-                I'm a passionate Computer Science student with a deep love for technology and innovation. 
-                My journey in tech began with curiosity about how things work, and has evolved into a 
-                dedicated pursuit of software engineering excellence. I thrive on solving complex problems 
-                and creating solutions that make a real impact.
-              </p>
-              
-              <p className="text-lg leading-relaxed text-foreground">
-                Currently pursuing my degree in Computer Science, I'm exploring areas like artificial 
-                intelligence, blockchain technology, and full-stack web development. My goal is to 
-                become a versatile software engineer who can bridge the gap between innovative ideas 
-                and practical implementations.
+                A passionate and dedicated Computer Science student from Binus University with a strong enthusiasm for technology and continuous learning. I am resilient, hard-working, and diligent, always striving to improve my skills and broaden my knowledge. With a solid foundation in analytical thinking and communication, I uphold integrity and contribute innovative ideas to solve real-world challenges. My goal is to grow into a well-rounded professional who bridges the gap between creativity and practical implementation in the tech industry.
               </p>
               
               <div className="pt-4">

@@ -10,13 +10,6 @@ const EducationSection = () => {
       status: "In Progress",
       gpa: "3.06/4.00"
     },
-    {
-      school: "Yasporbi High School", 
-      degree: "High School Diploma",
-      period: "2018 - 2022",
-      status: "Completed",
-      gpa: ""
-    }
   ];
 
   const courses = [

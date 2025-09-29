@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Mail, Github, Linkedin, MessageCircle } from "lucide-react";
+import { Mail, Github, Linkedin } from "lucide-react";
 
 const ContactSection = () => {
   return (
@@ -10,39 +10,57 @@ const ContactSection = () => {
           <div className="space-y-6">
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-              <Button 
-                size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-hover"
+              {/* Email */}
+              <a 
+                href="mailto:rameyza.prayitno@binus.ac.id"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <Mail className="h-5 w-5 mr-2" />
-                Send Email
-              </Button>
-              
-              <Button 
-                size="lg"
-                variant="outline"
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                <Button 
+                  size="lg"
+                  className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-hover"
+                >
+                  <Mail className="h-5 w-5 mr-2" />
+                  Send Email
+                </Button>
+              </a>
+
+              {/* LinkedIn */}
+              <a 
+                href="https://www.linkedin.com/in/rameyza-alya-03450b1a4/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <Linkedin className="h-5 w-5 mr-2" />
-                LinkedIn
-              </Button>
-              
-              <Button 
-                size="lg" 
-                variant="outline"
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                <Button 
+                  size="lg"
+                  variant="outline"
+                  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                >
+                  <Linkedin className="h-5 w-5 mr-2" />
+                  LinkedIn
+                </Button>
+              </a>
+
+              {/* GitHub */}
+              <a 
+                href="https://github.com/reimwon"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <Github className="h-5 w-5 mr-2" />
-                GitHub
-              </Button>
+                <Button 
+                  size="lg" 
+                  variant="outline"
+                  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                >
+                  <Github className="h-5 w-5 mr-2" />
+                  GitHub
+                </Button>
+              </a>
             </div>
           </div>
         </Card>
         
         <div className="mt-12 text-center">
-          <p className="text-muted-foreground">
-            © 2024 Alex Johnson. Built with React, TypeScript & Tailwind CSS
-          </p>
         </div>
       </div>
     </section>
